@@ -7,3 +7,9 @@ h1 is the selector, h1 points to the html element you want to style.<br/>
 The declaration block {  } contains one or more declarations separated by semicolons.<br/>
 
 Each declaration includes a css property name and a value, separted by ':'<br/>
+
+## Css Selectors
+A css selector selects the html element(s) you want to style.<br>
+We can divide Css selectors into five categories: <br>
+ 
+ -
