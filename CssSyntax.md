@@ -20,5 +20,4 @@ We can divide css selectors into five categories:</br>
 - **Pseudo-elements selectors** (select elements based on an attribute or attribute value).</br>
 
 ### The Css element Selector
-The element selector selects html elements based on the element name.
- 
+The element selector selects html elements based on the element name. 
