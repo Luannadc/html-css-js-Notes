@@ -109,5 +109,17 @@ displayed like this:
   <li>💅 Take a bubble bath. </li>
 </ol>
 
-#### Links
+#### Links 🔗
+`<a>` is the anchor element.<br>
+href or hyperlink reference, is a reference or a pointer to another website.
+```
+<a href="https://archive.org/web">Internet Archive</a>
+```
+This can also be used to point to an email or phone number using mailto, tel or sms:<br>
+- `<a href="mailto:frankie@gmail.com">📧</a>`<br>
+- `<a href="tel:221-232-9807">🤝</a>`<br>
+- `<a href="sms:543-937-HTML">💬</a>`<br>
+the emojis can be replaced by words or phrases to be displayed as the interactive message with the link.<br>
+#### Images
+To add images we use a similar format, but with `<img>` element.
 
