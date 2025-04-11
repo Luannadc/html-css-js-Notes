@@ -120,6 +120,17 @@ This can also be used to point to an email or phone number using mailto, tel or 
 - `<a href="tel:221-232-9807">🤝</a>`<br>
 - `<a href="sms:543-937-HTML">💬</a>`<br>
 the emojis can be replaced by words or phrases to be displayed as the interactive message with the link.<br>
-#### Images
+#### Images📷
 To add images we use a similar format, but with `<img>` element.
-
+```
+<p>Here´s a cute pic:</p>
+<img src="https//i.reed.it/5unn16axx1v18.jpg">
+```
+the `<img>` element is another self-closing tag, so it doesn´t have a closing tag. scr attribute, which stands for "source", specifies the file path of the image. the link between the parentheses is the image path.<br>
+#### Comments
+```
+<!--I am a comment.-->
+```
+they can also be used within an element:
+```
+<p>This text is viable.<!--But this is not.--></p><br>
