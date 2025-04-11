@@ -27,3 +27,4 @@ more code here //visible on the page.
 ````
 the `<title>` element goes in the `<head>` and assigns text to the bowser tab. <br>
 the browser tab looks like this when you visit the site:<br>
+[![Browser tab](https://i.postimg.cc/G2bTD6bJ/Captura-de-tela-2025-04-11-011812.png)](https://postimg.cc/xkFdDxJc)
