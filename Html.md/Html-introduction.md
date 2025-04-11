@@ -134,3 +134,26 @@ the `<img>` element is another self-closing tag, so it doesn´t have a closing t
 they can also be used within an element:
 ```
 <p>This text is viable.<!--But this is not.--></p><br>
+```
+### Attributes
+#### Attributes in Image Tag
+```
+<img src="https://www.adoption.io/images/cats.png" width="250" alt="cats for adoption">
+```
+the `<img>` element uses the `scr` <u>attribute</u> to specify the file path of an image. That width="250" is an attribute that sets the width of the image. In addition to src, we can also use the alt attribute to make our image more accessible. If you text can´t appear for some reason, the alt text is displayed instead, this allows assistive devices to read our text and describe the image.
+#### Attribute in Anchor Tag
+We can also came across attributes when learning about using links with `<a>` anchor tags:
+````
+<a href="https://www.adoption.io/">Adoption Saves</a>
+````
+The href attribute is where we add URL that can be visited when the hyperlinked text is clicked.
+We can also use the target attribute and set it to "_blank" to make the link open in a new browser tab:
+```
+<a href="https://www.adoption.io/"target="_blank">Adoption Saves</a>
+````
+### Classes and id attributes
+An element can be assigned multiple class values in the form of a space-separated list:<br>
+```
+<p class="first-value second-value third-value">Hello, World</p>
+```
+Each element can only have one id value with no space. Every id value should be unique in the entire page:
