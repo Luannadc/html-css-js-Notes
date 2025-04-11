@@ -1,7 +1,7 @@
 # HTML
-Hypertext Markup Language, is the foundation of most webpages. It´s a language used to structure and format content, defining how elements like text, images and links are displayed on a browser. Essentially html provides the skeleton for a web page.
+Hypertext Markup Language, is the foundation of most webpages 🌐. It´s a language used to structure and format content, defining how elements like text, images and links are displayed on a browser. Essentially html provides the skeleton for a web page.
 
-## STRUCTURE
+## STRUCTURE🏗️
 ````
 <!DOCTYPE html>
 <html>
@@ -9,7 +9,7 @@ code goes here
 </html>
 ````
 
-The `<!DOCTYPE html>` is the document type declaration that appers at the top of a .html file and tells the browser that our fille is written in HTML5. 
+The `<!DOCTYPE html>` is the **document type declaration** that appers at the top of a .html file and tells the browser that our fille is written in HTML5. 
 This is used wtith a `<html>` element containing all the code processed on the page. <br>
 Inside `<html>`, there should be **two** elements:<br>
 `<head>` contains all the info for your browser that´s not visible on the page. <br>
@@ -50,11 +50,11 @@ all the "main" code goes in the `<body>` element.
 **NOTE:** There can only be **one** `<body>` element in a file.
 #### Paragraph
 `<p>` Hello World! `</p>`
-#### Text Formatting
-`<b>`bold text`</b>` <br>
-`<i>`italicize text`</i>` <br>
-`<u>`underline text`</u>` <br>
-`<s>`strikethrough text`</s>`<br>
+#### Text Formatting ✒️
+`<b>`<b>bold text</b>`</b>` <br>
+`<i>`<i>italicize text</i>`</i>` <br>
+`<u>`<u>underline text</u>`</u>` <br>
+`<s>`<s>strikethrough text</s>`</s>`<br>
 
 #### Headings
 ````
