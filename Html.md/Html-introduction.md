@@ -72,6 +72,13 @@ function helloWorld() {
 `<i>`<i>italicize text</i>`</i>` <br>
 `<u>`<u>underline text</u>`</u>` <br>
 `<s>`<s>strikethrough text</s>`</s>`<br>
+`<em>`<em>emphasized text</em>`</em>`<br>
+`<smal>`<small>smaller text</small>`</smal>`<br>
+`<mark>`<mark>marked text</mark> `</mark>`<br>
+`<sub>`<sub>subscripted text</sub>`</sub>` <br>
+`<sup>`<sup>superscripted text</sup>`<sup>`
+
+
 
 #### Headings
 ````
