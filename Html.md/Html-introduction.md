@@ -56,6 +56,15 @@ all the "main" code goes in the `<body>` element.
 `<p>` element defines a paragraph.<br>
 A paragraph always starts on a new line, and a browsers automatically add some white space (a margin) before and after a paragraph.</p>
 <p>Actually, you can not be sure how html will be displayed, with htlml, you cannot change the display by adding extra spaces or extra lines in your html code.</p><p>The browser will automatically remove any extra spaces and lines when the page is displayed.</p>
+The `<pre>` tag can be used to display text exactly as it is written in the html file - including spaces, line breaks, and indentation.</p> 
+example:<br>
+```
+<pre>
+function helloWorld() {
+    console.log("Hello, world!");
+}
+</pre>
+```
 
 #### Text Formatting ✒️
 `<b>`<b>bold text</b>`</b>` <br>
@@ -128,6 +137,7 @@ This can also be used to point to an email or phone number using mailto, tel or 
 - `<a href="tel:221-232-9807">🤝</a>`<br>
 - `<a href="sms:543-937-HTML">💬</a>`<br>
 <p>the emojis can be replaced by words or phrases to be displayed as the interactive message with the link.</p>
+
 #### Images📷
 To add images we use a similar format, but with `<img>` element.
 ```
@@ -154,7 +164,7 @@ We can also came across attributes when learning about using links with `<a>` an
 ````
 <a href="https://www.adoption.io/">Adoption Saves</a>
 ````
-The href attribute is where we add URL that can be visited when the hyperlinked text is clicked.
+The href attribute is where we add URL that can be visited when the hyperlinked text is clicked.<br>
 We can also use the target attribute and set it to "_blank" to make the link open in a new browser tab:
 ```
 <a href="https://www.adoption.io/"target="_blank">Adoption Saves</a>
@@ -193,4 +203,5 @@ The value of the title attribute will be displayed as a tooltip when you mouse o
 <p title="I´m a tooltip">This is a paragraph.</p>
 ```
 <br>
-<b>NOTE:</b>It is recommended to use quotes around attributes values, the html standard does not requires it but is a good practice, you can use double or single quotes.
+<b>NOTE:</b> It is recommended to use quotes around attributes values, the html standard does not requires it but is a good practice, you can use double or single quotes.
+
