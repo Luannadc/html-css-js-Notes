@@ -207,3 +207,52 @@ The value of the title attribute will be displayed as a tooltip when you mouse o
 <br>
 <b>NOTE:</b> It is recommended to use quotes around attributes values, the html standard does not requires it but is a good practice, you can use double or single quotes.
 
+### HTML Styles 
+The html `style` attribute is used to add style to an element, such as color, font, size and more.
+
+the html style attribute has the following syntax:
+```
+<tagname style="property:value;">
+```
+the property is a css property. the value is a css value.
+
+#### Background Color 
+The ccs background-color property defines the background color for an html element.
+```
+<body style="background-color:powderblue;">
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+</body>
+```
+set the background color for a page to powderblue.
+```
+<body>
+<h1 style="background-color:powderblue;">This is a heading</h1>
+<p style="background-color:tomato;">This is a paragraph.</p>
+</body>
+```
+#### Text Color
+the css `color` property defines the text color for an html element:
+```
+<h1 style="color:blue;">This is a heading</h1>
+<p style="color:red;">This is a paragraph.</p>
+```
+#### Fonts
+the css `font-family` property defines the font to be used for an html element:
+```
+<h1 style="font-family:verdana;">This is a heading</h1>
+<p style="font-family:courier;">This is a paragraph.</p>
+```
+#### Text Size 
+the css `font-size` property defines the text size for an html element:
+```
+<h1 style="font-size:300%;">This is a heading</h1>
+<p style="font-size:160%;">This is a paragraph.</p>
+```
+#### Text Alignment
+the css `text-align` property defines the horizontal text alignment for an html element:
+```
+<h1 style="text-align:center;">Centered Heading</h1>
+<p style="text-align:center;">Centered paragraph.</p>
+```
+
