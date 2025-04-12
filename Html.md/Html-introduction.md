@@ -80,7 +80,7 @@ there are six levels of headings, from `<h1>` to `<h6>`<br>
 
 **NOTE:** only one `<h1>` element shoud be used in a .html file.<br>
 #### Break Lines
-`<br>` is used o break lines, it´s a self-closing tag, so doesn´t need to be closed manually by a closing tag.
+`<br>` is used to break lines, it´s a self-closing tag, so doesn´t need to be closed manually by a closing tag.
 #### Lists
 `<ul>` unordered lists <br>
 `<ol>` ordered lists <br>
@@ -127,7 +127,7 @@ This can also be used to point to an email or phone number using mailto, tel or 
 - `<a href="mailto:frankie@gmail.com">📧</a>`<br>
 - `<a href="tel:221-232-9807">🤝</a>`<br>
 - `<a href="sms:543-937-HTML">💬</a>`<br>
-the emojis can be replaced by words or phrases to be displayed as the interactive message with the link.<br>
+<p>the emojis can be replaced by words or phrases to be displayed as the interactive message with the link.</p>
 #### Images📷
 To add images we use a similar format, but with `<img>` element.
 ```
