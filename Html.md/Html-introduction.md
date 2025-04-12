@@ -87,6 +87,7 @@ there are six levels of headings, from `<h1>` to `<h6>`<br>
 `<h4>`Heading level 4`</h4>`<br>
 `<h5>`Heading level 5`</h5>`<br>
 `<h6>`Heading level 6`</h6>`<br>
+use html headings for headings only. Don´t use headings to make text BIG or <b>bold.</b>
 
 **NOTE:** only one `<h1>` element shoud be used in a .html file.<br>
 #### Break Lines
