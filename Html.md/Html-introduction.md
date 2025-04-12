@@ -150,10 +150,39 @@ The href attribute is where we add URL that can be visited when the hyperlinked 
 We can also use the target attribute and set it to "_blank" to make the link open in a new browser tab:
 ```
 <a href="https://www.adoption.io/"target="_blank">Adoption Saves</a>
+
 ````
-### Classes and id attributes
-An element can be assigned multiple class values in the form of a space-separated list:<br>
+#### Style Attribute
+The <b>style</b> attribute is used to add styles to an element, such as colors, font size, and more.<br>
 ```
-<p class="first-value second-value third-value">Hello, World</p>
+<p style="color:red;">This is a red paragraph.</p>
 ```
-Each element can only have one id value with no space. Every id value should be unique in the entire page:
+we will learn more about styles later.
+#### Language Attribute
+You should always include the <b>lang</b> attribute inside the <html> tag, to declare the language of the web page.<br>
+The following example specifies english as the language:
+```
+<!DOCTYPE html>
+<html lang="en">
+<body>
+...
+</body>
+</html>
+````
+country codes can also be added to the language code in the <b>lang</b> attribute. So, the first two chacarcters define the language of the html page, and the last two characters define the country.<br>The following example specifies english as the language and United States as the country:
+```
+<!DOCTYPE html>
+<html lang="en-US">
+<body>
+...
+</body>
+</html>
+`````
+#### The title Attribute
+The `title` attribute defines some extra information about an element.<br>
+The value of the title attribute will be displayed as a tooltip when you mouse ouver the element:<br>
+```
+<p title="I´m a tooltip">This is a paragraph.</p>
+```
+<br>
+<b>NOTE:</b>It is recommended to use quotes around attributes values, the html standard does not requires it but is a good practice, you can use double or single quotes.
