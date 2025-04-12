@@ -157,9 +157,9 @@ they can also be used within an element:
 ### Attributes
 #### Attributes in Image Tag
 ```
-<img src="https://www.adoption.io/images/cats.png" width="250" alt="cats for adoption">
+<img src="https://www.adoption.io/images/cats.png" width="250" height="400" alt="cats for adoption">
 ```
-the `<img>` element uses the `scr` <u>attribute</u> to specify the file path of an image. That width="250" is an attribute that sets the width of the image. In addition to src, we can also use the alt attribute to make our image more accessible. If you text can´t appear for some reason, the alt text is displayed instead, this allows assistive devices to read our text and describe the image.
+the `<img>` element uses the `scr` <u>attribute</u> to specify the file path of an image. That <b>width="250"</b> is an attribute that sets the width of the image, and <b>height="400"</b> sets the height of the image (in pixels). In addition to src, we can also use the <b>alt</b> attribute to make our image more accessible. If the image can´t appear for some reason, the alt text is displayed instead, this allows assistive devices to read our text and describe the image.
 #### Attribute in Anchor Tag
 We can also came across attributes when learning about using links with `<a>` anchor tags:
 ````
