@@ -56,7 +56,8 @@ all the "main" code goes in the `<body>` element.
 `<p>` element defines a paragraph.<br>
 A paragraph always starts on a new line, and a browsers automatically add some white space (a margin) before and after a paragraph.</p>
 <p>Actually, you can not be sure how html will be displayed, with htlml, you cannot change the display by adding extra spaces or extra lines in your html code.</p><p>The browser will automatically remove any extra spaces and lines when the page is displayed.</p>
-The `<pre>` tag can be used to display text exactly as it is written in the html file - including spaces, line breaks, and indentation.</p> 
+<p>The <code>&lt;pre&gt;</code> tag can be used to display text exactly as it is written in the html file - including spaces, line breaks, and indentation.</p>
+
 example:<br>
 ```
 <pre>
