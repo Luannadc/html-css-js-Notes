@@ -49,7 +49,14 @@ all the "main" code goes in the `<body>` element.
 ```
 **NOTE:** There can only be **one** `<body>` element in a file.
 #### Paragraph
-`<p>` Hello World! `</p>`
+```
+<p> This is a paragraph. </p>
+<p> This is another paragraph. </p>
+```
+`<p>` element defines a paragraph.<br>
+A paragraph always starts on a new line, and a browsers automatically add some white space (a margin) before and after a paragraph.</p>
+<p>Actually, you can not be sure how html will be displayed, with htlml, you cannot change the display by adding extra spaces or extra lines in your html code.</p><p>The browser will automatically remove any extra spaces and lines when the page is displayed.</p>
+
 #### Text Formatting ✒️
 `<b>`<b>bold text</b>`</b>` <br>
 `<i>`<i>italicize text</i>`</i>` <br>
@@ -63,13 +70,14 @@ all the "main" code goes in the `<body>` element.
 <p> article content. </p>
 </body>
 ````
-there are six levels of headings, from `<h1>` to `<h6>`
+there are six levels of headings, from `<h1>` to `<h6>`<br>
 `<h1>`Heading level 1`</h1>`<br>
 `<h2>`Heading level 2`</h2>`<br>
 `<h3>`Heading level 3`</h3>`<br>
 `<h4>`Heading level 4`</h4>`<br>
 `<h5>`Heading level 5`</h5>`<br>
 `<h6>`Heading level 6`</h6>`<br>
+
 **NOTE:** only one `<h1>` element shoud be used in a .html file.<br>
 #### Break Lines
 `<br>` is used o break lines, it´s a self-closing tag, so doesn´t need to be closed manually by a closing tag.
