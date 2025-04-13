@@ -386,3 +386,19 @@ The following two `<div>` elements have their background color set with RGBA and
 displayed like:
 <h1 style="background-color:rgba(255, 99, 71, 0.5);">...</h1>
 <h1 style="background-color:hsla(9, 100%, 64%, 0.5);">...</h1>
+<br>
+
+### HTML RGB and RGBA colors
+**RGB** represents RED, GREEN and BLUE values, an RGBA color value is an extension of RGB with an Alpha channel(opacity).<br>
+In HTML a color can be specified as an RGB value, using this formula:<br>
+-> **rgb(red, green, blue)**<br>
+Each parameter (red, green, and blue) defines the intensity of the color with a value between **0** and **255**.<br> 
+This means that there are 256x256x256= 16777216 possible colors. 🤯<br>
+| COLOR NAME | RGB CODE |
+|------------|----------|
+|    red     | (255, 0, 0)|
+| greeen     | (0, 255, 0)|
+|blue        | (0, 0, 255)|
+|black       | (0,0,0)|
+|white       | (255, 255, 255)|
+|pink        | (238, 130, 238)|
