@@ -202,7 +202,8 @@ country codes can also be added to the language code in the <b>lang</b> attribut
 </body>
 </html>
 `````
-#### The title Attribute
+#### The Title Attribute
+
 The `title` attribute defines some extra information about an element.<br>
 The value of the title attribute will be displayed as a tooltip when you mouse ouver the element:<br>
 ```
@@ -407,3 +408,18 @@ This means that there are 256x256x256= 16777216 possible colors. 🤯<br>
 
 👉 [Open RGB Mixer](./rgb-mixer.html)
 
+Shades of gray are often defined using equal values for all three parameters:
+```
+<h1 style="background-color:rgb(60, 60, 60);">rgb(60, 60, 60)</h1>
+<h1 style="background-color:rgb(100, 100, 100);">rgb(100, 100, 100)</h1>
+<h1 style="background-color:rgb(140, 140, 140);">rgb(140, 140, 140)</h1>
+<h1 style="background-color:rgb(180, 180, 180);">rgb(180, 180, 180)</h1>
+<h1 style="background-color:rgb(200, 200, 200);">rgb(200, 200, 200)</h1>
+<h1 style="background-color:rgb(240, 240, 240);">rgb(240, 240, 240)</h1>
+```
+<h1 style="background-color:rgb(60, 60, 60);">rgb(60, 60, 60)</h1>
+<h1 style="background-color:rgb(100, 100, 100);">rgb(100, 100, 100)</h1>
+<h1 style="background-color:rgb(140, 140, 140);">rgb(140, 140, 140)</h1>
+<h1 style="background-color:rgb(180, 180, 180);">rgb(180, 180, 180)</h1>
+<h1 style="background-color:rgb(200, 200, 200);">rgb(200, 200, 200)</h1>
+<h1 style="background-color:rgb(240, 240, 240);">rgb(240, 240, 240)</h1>
