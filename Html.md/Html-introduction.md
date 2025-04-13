@@ -324,3 +324,4 @@ displayed like:
 displayed like:<br>
 <bdo dir="rtl">This text will be written from right to left</bdo>
 
+### HTML Colors
