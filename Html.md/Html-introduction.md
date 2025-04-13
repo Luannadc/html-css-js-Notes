@@ -338,19 +338,19 @@ You can set the `background-color` for html elements:
 ```
 displayed like:
 <h1 style="background-color:DodgerBlue;">Hello World</h1>
-<p style="background-color:Tomato;">RED Background</p>
+<p style="background-color:Tomato;">Hello World</p>
 
 #### Text Color
 You can also set the color of text:
 ```
 <h1 style="color:Tomato;">Hello World</h1>
-<p style="color:DodgerBlue;">Lorem ipsum...</p>
-<p style="color:MediumSeaGreen;">Example3</p>
+<p style="color:DodgerBlue;">Hello World</p>
+<p style="color:MediumSeaGreen;">Hello World</p>
 ```
 displayed like:
 <h1 style="color:Tomato;">Hello World</h1>
-<p style="color:DodgerBlue;">Example in blue</p>
-<p style="color:MediumSeaGreen;">Example3</p>
+<p style="color:DodgerBlue;">Hello World</p>
+<p style="color:MediumSeaGreen;">Hello World</p>
 
 #### Border Color
 You can set the color of borders:
@@ -363,3 +363,26 @@ displayed like:
 <h1 style="border:2px solid Tomato;">Hello World</h1>
 <h1 style="border:2px solid DodgerBlue;">Hello World</h1>
 <h1 style="border:2px solid Violet;">Hello World</h1>
+
+#### Color Values
+In HTML, colors can be also specified using RGB values, HEX values, HSL values, RGBA values, and HSLA values.<br>
+The following three `<div>` elements have their background color set with RGB, HEX, and HSL values:
+```
+<h1 style="background-color:rgb(255, 99, 71);">...</h1>
+<h1 style="background-color:#ff6347;">...</h1>
+<h1 style="background-color:hsl(9, 100%, 64%);">...</h1>
+
+```
+displayed like:
+<h1 style="background-color:rgb(255, 99, 71);">...</h1>
+<h1 style="background-color:#ff6347;">...</h1>
+<h1 style="background-color:hsl(9, 100%, 64%);">...</h1>
+
+The following two `<div>` elements have their background color set with RGBA and HSLA values, which add an Alpha channel to the color (here we have 50% transparency):
+```
+<h1 style="background-color:rgba(255, 99, 71, 0.5);">...</h1>
+<h1 style="background-color:hsla(9, 100%, 64%, 0.5);">...</h1>
+```
+displayed like:
+<h1 style="background-color:rgba(255, 99, 71, 0.5);">...</h1>
+<h1 style="background-color:hsla(9, 100%, 64%, 0.5);">...</h1>
