@@ -321,6 +321,7 @@ displayed like:
 <bdo dir="rtl">This text will be written from right to left</bdo>
 ```
 displayed like:<br>
+
 <bdo dir="rtl">This text will be written from right to left</bdo>
 
 ### HTML Colors
@@ -328,3 +329,37 @@ HTML colors are specified with predefined color names, or with RGB, HEX, HSL, RG
 HTML supports **140** standard color names.<br>
 In HTML, a color can be specified by using a color name:
 <img src="https://i.imgur.com/67pfUe1.png" alt="Imagem de exemplo" width="600">
+
+#### Background color
+You can set the `background-color` for html elements:
+```
+<h1 style="background-color:DodgerBlue;">Hello World</h1>
+<p style="background-color:Tomato;">RED Background</p>
+```
+displayed like:
+<h1 style="background-color:DodgerBlue;">Hello World</h1>
+<p style="background-color:Tomato;">RED Background</p>
+
+#### Text Color
+You can also set the color of text:
+```
+<h1 style="color:Tomato;">Hello World</h1>
+<p style="color:DodgerBlue;">Lorem ipsum...</p>
+<p style="color:MediumSeaGreen;">Example3</p>
+```
+displayed like:
+<h1 style="color:Tomato;">Hello World</h1>
+<p style="color:DodgerBlue;">Example in blue</p>
+<p style="color:MediumSeaGreen;">Example3</p>
+
+#### Border Color
+You can set the color of borders:
+```
+<h1 style="border:2px solid Tomato;">Hello World</h1>
+<h1 style="border:2px solid DodgerBlue;">Hello World</h1>
+<h1 style="border:2px solid Violet;">Hello World</h1>
+```
+displayed like:
+<h1 style="border:2px solid Tomato;">Hello World</h1>
+<h1 style="border:2px solid DodgerBlue;">Hello World</h1>
+<h1 style="border:2px solid Violet;">Hello World</h1>
