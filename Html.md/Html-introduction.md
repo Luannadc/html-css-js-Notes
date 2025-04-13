@@ -402,3 +402,8 @@ This means that there are 256x256x256= 16777216 possible colors. 🤯<br>
 |black       | (0,0,0)|
 |white       | (255, 255, 255)|
 |pink        | (238, 130, 238)|
+
+<b>YOU CAN TRY MORE COLORS USING THE RGB MIXER TOOL BELOW:</b><br>
+
+👉 [Open RGB Mixer](./rgb-mixer.html)
+
