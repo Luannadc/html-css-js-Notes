@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>RGB Mixer</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: Arial;
+    }
+    .color-box {
+      width: 300px;
+      height: 100px;
+      margin: 20px auto;
+      line-height: 100px;
+      color: #333;
+      font-weight: bold;
+    }
+    input[type="range"] {
+      width: 200px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Experiment by mixing the RGB values below:</h2>
+
+  <div class="color-box" id="colorBox">rgb(255, 206, 255)</div>
+
+  <div>
+    <label>RED</label><br>
+    <input type="range" id="red" min="0" max="255" value="255"><br>
+    <span id="redVal">255</span>
+  </div>
+
+  <div>
+    <label>GREEN</label><br>
+    <input type="range" id="green" min="0" max="255" value="206"><br>
+    <span id="greenVal">206</span>
+  </div>
+
+  <div>
+    <label>BLUE</label><br>
+    <input type="range" id="blue" min="0" max="255" value="255"><br>
+    <span id="blueVal">255</span>
+  </div>
+
+  <script>
+    const redSlider = document.getElementById('red');
+    const greenSlider = document.getElementById('green');
+    const blueSlider = document.getElementById('blue');
+    const redVal = document.getElementById('redVal');
+    const greenVal = document.getElementById('greenVal');
+    const blueVal = document.getElementById('blueVal');
+    const colorBox = document.getElementById('colorBox');
+
+    function updateColor() {
+      const r = redSlider.value;
+      const g = greenSlider.value;
+      const b = blueSlider.value;
+
+      redVal.textContent = r;
+      greenVal.textContent = g;
+      blueVal.textContent = b;
+
+      const rgb = `rgb(${r}, ${g}, ${b})`;
+      colorBox.style.backgroundColor = rgb;
+      colorBox.textContent = rgb;
+    }
+
+    redSlider.addEventListener('input', updateColor);
+    greenSlider.addEventListener('input', updateColor);
+    blueSlider.addEventListener('input', updateColor);
+
+    updateColor();
+  </script>
+
+</body>
+</html>
+<!-- This HTML document creates a simple RGB color mixer. It includes three sliders for red, green, and blue values, and a color box that updates its background color based on the selected RGB values. The initial values are set to 255 for red, 206 for green, and 255 for blue. The JavaScript code handles the input events from the sliders and updates the color box accordingly. -->
+<!-- The color box displays the current RGB value in the format "rgb(r, g, b)". The document is styled with basic CSS for layout and appearance. -->
