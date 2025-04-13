@@ -175,7 +175,6 @@ The href attribute is where we add URL that can be visited when the hyperlinked 
 We can also use the target attribute and set it to "_blank" to make the link open in a new browser tab:
 ```
 <a href="https://www.adoption.io/"target="_blank">Adoption Saves</a>
-
 ````
 #### Style Attribute
 The <b>style</b> attribute is used to add styles to an element, such as colors, font size, and more.<br>
