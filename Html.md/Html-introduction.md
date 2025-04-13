@@ -305,3 +305,22 @@ Example.com<br>
 Box 564, Disneyland<br>
 USA
 </address>
+<br>
+
+`<cite>` tag defines the title of a creative work (e.g. a book, a poem, a song, a movie, a painting, a sculpture, etc.).<br>
+**Note:** A person's name is not the title of a work.<br>
+The text in the `<cite>` element usually renders in italic.
+```
+<p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+```
+displayed like:
+<p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+
+`<bdo>` tag is used to override the current text direction:
+**BDO** stands for Bi-Directional Override.<br>
+```
+<bdo dir="rtl">This text will be written from right to left</bdo>
+```
+displayed like:<br>
+<bdo dir="rtl">This text will be written from right to left</bdo>
+
