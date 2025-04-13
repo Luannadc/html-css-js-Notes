@@ -324,3 +324,7 @@ displayed like:<br>
 <bdo dir="rtl">This text will be written from right to left</bdo>
 
 ### HTML Colors
+HTML colors are specified with predefined color names, or with RGB, HEX, HSL, RGBA, or HSLA values.<br>
+HTML supports **140** standard color names.<br>
+In HTML, a color can be specified by using a color name:
+<img src="https://i.imgur.com/67pfUe1.png" alt="Imagem de exemplo" width="600">
