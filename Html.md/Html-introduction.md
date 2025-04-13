@@ -78,8 +78,6 @@ function helloWorld() {
 `<sub>`<sub>subscripted text</sub>`</sub>` <br>
 `<sup>`<sup>superscripted text</sup>`<sup>`
 
-
-
 #### Headings
 ````
 <body>
@@ -262,4 +260,48 @@ the css `text-align` property defines the horizontal text alignment for an html 
 <h1 style="text-align:center;">Centered Heading</h1>
 <p style="text-align:center;">Centered paragraph.</p>
 ```
+### HTML Quotation and Citation Elements
+`<blockquote>` defines a section that is <u>quoted from another source</u>. Browsers usually indent `<blockquotes>` elements.
+```
+<p>Here is a quote from WWF's website:</p>
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation organization, WWF works in nearly 100 countries. At every level, we collaborate with people around the world to develop and deliver innovative solutions that protect communities, wildlife, and the places in which they live.
+</blockquote>
+```
+`<q>` tag defines a <u>short quotation</u>. Browsers normally insert quotation marks around the quotation.
+```
+<p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+```
+displayed like:
 
+<p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+
+`<abbr>` tag defines an <u>abbreviation or an acronym</u>, like "HTML", "CSS", "Mr.", "Dr.", "ASAP", "ATM".
+Marking abbreviations can give useful information to browsers, translation systems and search-engines.<br>
+**Tip**: Use the global title attribute to show the description for the abbreviation/acronym when you mouse over the element. 
+```
+<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+```
+displayed like:
+<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+
+ `<address>` tag defines the contact information for the author/owner of a document or an article.
+The contact information can be an email address, URL, physical address, phone number, social media handle, etc.
+The text in the `<address>` element usually renders in italic, and browsers will always add a line break before and after the `<address>` element.
+```
+<address>
+Written by John Doe.<br>
+Visit us at:<br>
+Example.com<br>
+Box 564, Disneyland<br>
+USA
+</address>
+```
+displayed like:
+<address>
+Written by John Doe.<br>
+Visit us at:<br>
+Example.com<br>
+Box 564, Disneyland<br>
+USA
+</address>
