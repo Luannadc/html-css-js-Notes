@@ -33,5 +33,31 @@ userId = "356"
 // SyntaxError: Identifier 'userId' has already been declared
 
 <h4>Data Types</h4>
- 
+ Let´s start with the four most important ones:  
 
+ #### Numbers
+ A number can be any integer or decimal number. It can be used to represent whole numbers, fractions or precise measurements.
+ >let year = 2023;  
+let age = 28;  
+let mealCost = 12.99;  
+const pi = 3.14;  
+const daysOfWeek = 7;
+#### String 
+A string is used for storing text or sequence of characters. Strings are wrapped in double quotes " " or single quotes ' '.
+>let message = "good nite";  
+let user = '@zuck';  
+const company = "Meta";
+#### Boolean
+A Boolean data type, or bool, stores a value that can only be either true or false. In JavaScript, it's lowercased true or false.
+>let hungry = true;  
+let lateToMeeting = false;  
+const earthIsFlat = false;
+#### Undefined
+Any variable that is declared but hasn't yet received a value is undefined. This may happen when a variable is declared without being assigned a value, or when it is explicitly assigned a value of undefined:
+
+>let startDate = "01/23/2022";  
+let endDate;
+console.log(startDate); // 01/23/2022  
+console.log(endDate);   // undefined
+
+This data type is useful if you create a variable but haven't yet decided what value it should have.
