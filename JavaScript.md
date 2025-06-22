@@ -8,7 +8,7 @@
 <h4>Comments</h4> 
 <p>Comments can be made by using <b>//</b> for line comments or <b>/*</b> and <b>*/</b> for multiple line comments.
 
-<h4>Variables</h4>
+<h3>Variables</h3>
 <p>Variables are used for storing data values that can be used later in your program.</p>
 To create or declare a variable, we need a <b>let</b> or <b>const</b> keyword:
 
@@ -32,7 +32,7 @@ for a <b>const</b> variable, we can´t change its value, but we can still print 
 userId = "356"  
 // SyntaxError: Identifier 'userId' has already been declared
 
-<h4>Data Types</h4>
+<h3>Data Types</h3>
  Let´s start with the four most important ones:  
 
  #### Numbers
@@ -61,3 +61,14 @@ console.log(startDate); // 01/23/2022
 console.log(endDate);   // undefined
 
 This data type is useful if you create a variable but haven't yet decided what value it should have.
+
+<h3>Operators</h3>  
+JavaScript has the following arithmetic operators:
+
+  '+' Addition  
+  '-' Subtraction  
+  '*' Multiplication
+  '/' Division  
+  '%' Modulo  
+  '**' Exponent  
+  
