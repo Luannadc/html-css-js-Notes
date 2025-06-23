@@ -2,10 +2,10 @@
 <p>JavaScript runs one line at a time, from the top to bottom.</p>
 <p> It´s optional to use <b>;</b> in JavaScript</p>
 
-<h4>Output</h4>
+<h3>Output</h3>
 <p>For output a menssage use <b>console.log("Hello World").</b></p>
 
-<h4>Comments</h4> 
+<h3>Comments</h3> 
 <p>Comments can be made by using <b>//</b> for line comments or <b>/*</b> and <b>*/</b> for multiple line comments.
 
 <h3>Variables</h3>
