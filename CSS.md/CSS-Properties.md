@@ -95,4 +95,6 @@ rgba(255, 99, 71, 1)<br>
 </ol>
 
 <h3>CSS HEX Colors</h3>
+A hexadecimal color is specified with: <b>#RRGGBB</b>, where the RR (red), GG (green) and BB (blue) hexadecimal integers specify the components of the color.<br>
+
 
