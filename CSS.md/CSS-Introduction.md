@@ -90,5 +90,43 @@ h1, h2, p {
 ```
 Separate each selector with a comma. 
 
+<h2>How To Add CSS</h2>
+When a browser reads a style sheet, it will format the HTML document according to the information in the style sheet.
 
+<h3>Three Ways to Insert CSS</h3>
+<ul>
+    - External CSS<br>
+    - Internal CSS<br>
+    - Inline CSS<br>
+</ul>
+<h4>External CSS</h4>
+With an external style sheet, you can change the look of an entire website by changing just one file!<br>
+Each HTML page must include a reference to the external style sheet file inside the &lt;link&gt; element, inside the &lt;head&gt;.
 
+```
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Heading</h1>
+<p>Paragraph</p>
+
+</body>
+</html>
+```
+An external style sheet can be written in any text editor, and must be saved with a .css extension. The external .css file should not contain any HTML tags.<br>
+Here is how the "style.css" file looks:
+
+```
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
+```
