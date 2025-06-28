@@ -130,3 +130,65 @@ h1 {
   margin-left: 20px;
 }
 ```
+<h4>Internal CSS</h4>
+An internal style sheet may be used if one single HTML page has a unique style. The internal style is defined inside the &lt;style&gt; element, inside the head section. <br>
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: linen;
+}
+
+h1 {
+  color: maroon;
+  margin-left: 40px;
+}
+</style>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+```
+<h4>Inline CSS</h4>
+An inline style may be used to apply a unique style for a single element. To use inline styles, add the style attribute to the relevant element. The style attribute can contain any CSS property.<br>
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="color:blue;text-align:center;">This is a heading</h1>
+<p style="color:red;">This is a paragraph.</p>
+
+</body>
+</html>
+```
+<h4>Multiple Style Sheets</h4>
+You can link multiple CSS files in one HTML page. The browser reads them in the order they appear — last one can override previous rules if there's a conflict.
+
+```
+<head>
+  <link rel="stylesheet" href="base.css">
+  <link rel="stylesheet" href="theme.css">
+</head>
+```
+`base.css` for general layout<br>
+`theme.css` for colors/fonts/themes
+
+<h4>Cascading Order</h4>
+Cascading means that when multiple CSS rules apply to the same element, the browser decides which one wins using a priority system.
+<ol>
+    1. Inline style <br>
+    2. External and internal style sheets <br>
+    3. Browser default
+</ol>
+
+<h3>CSS Comments</h3>
+A CSS comment starts with <b>/*</b> and ends with <b>*/</b> , you can use it for simple or multiple lines comments.
