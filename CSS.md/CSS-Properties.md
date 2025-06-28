@@ -96,5 +96,8 @@ rgba(255, 99, 71, 1)<br>
 
 <h3>CSS HEX Colors</h3>
 A hexadecimal color is specified with: <b>#RRGGBB</b>, where the RR (red), GG (green) and BB (blue) hexadecimal integers specify the components of the color.<br>
-
+<br>
+For example, <b>#ff0000</b> is displayed as red, because red is set to its highest value (ff) and the others are set to the lowest value (00).<br>
+To display black, set all values to 00, like this: <b>#000000</b>.<br>
+To display white, set all values to ff, like this: <b>#ffffff</b>.<br>  
 
