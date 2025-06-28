@@ -65,10 +65,11 @@ This data type is useful if you create a variable but haven't yet decided what v
 <h3>Operators</h3>  
 JavaScript has the following arithmetic operators:
 
-  '+' Addition  
-  '-' Subtraction  
-  '*' Multiplication
-  '/' Division  
-  '%' Modulo  
-  '**' Exponent  
-  
+  ' + ' Addition  
+  ' - ' Subtraction  
+  ' * ' Multiplication  
+  ' / ' Division  
+  ' % ' Modulo  
+  ' ** ' Exponent  
+  ' ++ ' Increment  
+  ' -- ' Decrement  
