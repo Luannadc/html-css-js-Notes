@@ -192,3 +192,52 @@ Cascading means that when multiple CSS rules apply to the same element, the brow
 
 <h3>CSS Comments</h3>
 A CSS comment starts with <b>/*</b> and ends with <b>*/</b> , you can use it for simple or multiple lines comments.
+
+<h3>Common CSS mistakes</h3>
+🔔 How to avoid common CSS mistakes:
+
+<h4>Missing Semicolons</h4>
+Forgetting a semicolon at the end of a property declaration can break the style rule.<br>
+Example
+
+```
+.bad{
+    color: red
+    background-color: yellow;
+}
+```
+<h4>Invalid Property Names</h4>
+Using a property name that does not exist will simply be ignored by the browser.
+
+```
+.bad {
+    colr: blue;
+    font-size: 16px;
+}
+```
+<h4>Invalid Values</h4>
+Correct properties but invalid values will also be ignored.
+
+```
+.bad{
+    width: -100px;
+    color: green;
+}
+```
+<h4>Unclosed Braces</h4>
+If you forget to close a brace }, the entire rule may be ignored.
+
+```
+.bad{
+    padding: 20px;
+    margin: 10px;
+}
+```
+<h4>Extra Colons or Braces</h4>
+Typos like extra colons or misplaced braces can cause rules to break.
+
+```
+.bad{
+    color:: blue;
+}
+```
