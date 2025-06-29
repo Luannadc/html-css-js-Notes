@@ -1,13 +1,26 @@
-# CSS Syntax
-A css rule consists of a selector and a declaration block.<br/>
-> h1 {color:blue; font-size:12px;}
+# HTML, CSS and JavaScript
 
-h1 is the selector, h1 points to the html element you wnat to style.<br/>
+👀 Are you lost in your studies ?
+If yes, this repository is for you !<br>
 
-The declaration block {  } contains one or more declarations separated by semicolons.<br/>
+📌 Here you will find my most important student notes learning HTML, CSS and JavaScript just like you now. 
 
-Each declaration includes a css property name and a value, separted by ':'<br/>
+## 🏗️ STRUCTURE
+- [HTML.md](Html.md/)  
+   - [HTML INTRODUCTION](Html.md/Html-introduction.md)
+
+- [CSS.md](CSS.md/)
+    - [CSS INTRODUCTION](CSS.md/CSS-Introduction.md)
+    - [CSS PROPERTIES](CSS.md/CSS-Properties.md)
+
+- [JavaScript.md](JavaScript.md/)
+    - [JavaScript INTRODUCTION](JavaScript.md/JS-Introduction.md)
+    - [JavaScript CONDITIONALS](JavaScript.md/JS-Conditionals.md)
+    - [JavaScript FUNCTION](JavaScript.md/JS-Function.md)
 
 
 
+# 🌐
+Feel free to use these notes to help with your studies. <br>
 
+<b>I am currently updating the repository with new study notes.</b>
