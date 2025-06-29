@@ -1,6 +1,6 @@
 ### JAVASCRIPT SUMMARIES
 <p>JavaScript runs one line at a time, from the top to bottom.</p>
-<p> It´s optional to use <b>;</b> in JavaScript</p>
+<p> It´s optional to use <b>;</b> in JavaScript, but i recommend using it as good practice.</p>
 
 <h3>Output</h3>
 <p>For output a menssage use <b>console.log("Hello World").</b></p>
@@ -9,11 +9,10 @@
 <p>Comments can be made by using <b>//</b> for line comments or <b>/*</b> and <b>*/</b> for multiple line comments.
 
 <h3>Variables</h3>
-<p>Variables are used for storing data values that can be used later in your program.</p>
-To create or declare a variable, we need a <b>let</b> or <b>const</b> keyword:
+<p>Variables are used for storing data values that can be used later in your program.</p> To create or declare a variable, we need a <b>let</b> or <b>const</b> keyword. 
 
 <b>- let</b> is used for variables where the value will change.  
-<b>- const</b> is used for variables where the value will stay constant.  
+<b>- const</b> is used for variables where the value will stay constant.   
 after the keyword we need a variable name, an <b>=</b> sign, and a value:  
 >keyword name = value;  
 
@@ -31,6 +30,8 @@ for a <b>const</b> variable, we can´t change its value, but we can still print 
 >const userId = "8125497315"  
 userId = "356"  
 // SyntaxError: Identifier 'userId' has already been declared
+
+⚠️ You can also use <b>var</b> as a keyword but it was only used from 1995 to 2015, so it should only be used in code written for older browsers.
 
 <h3>Data Types</h3>
  Let´s start with the four most important ones:  
@@ -62,6 +63,33 @@ console.log(endDate);   // undefined
 
 This data type is useful if you create a variable but haven't yet decided what value it should have.
 
+#### BigInt
+All JavaScript numbers are stored in a 64-bit floating-point format, <b>BigInt</b> is a new datatype that can be used to store integer values that are too big to be represented by a normal JavaScript number.
+>let x = BigInt("123456789012345678901234567890");
+
+#### Arrays
+The following code declares an array called `cars`, containing three items (`car names`). They are written with square brackets and separated by commas.
+
+> const cars = ["Mercedes", "BMW", "Volvo"];
+
+Array indexes are zero-based, which means the first item is [0], second is [1], and so on.
+
+#### Objects
+Objects are written with curly braces {}, as <b>name:value</b> separated by commas.
+
+```
+const person = {"firstName:"Luanna", lastName: "Dias", age:19, eyeColor:"green"};
+``` 
+The object (person) in the example above has 4 properties: firstName, lastName, age, and eyeColor
+
+ <h3>typeof Operator</h3>
+
+ You can use the JavaScript `typeof` operator to find the type of a JavaScript variable. The `typeof` operator returns the type of a variable or an expression:<br>
+
+ ```
+typeof "Gabriely" // returns "string"
+typeof "78" // returns "number"
+```
 <h3>Operators</h3>  
 JavaScript has the following arithmetic operators:
 
@@ -73,3 +101,25 @@ JavaScript has the following arithmetic operators:
   ' ** ' Exponent  
   ' ++ ' Increment  
   ' -- ' Decrement  
+
+<h3>JavaScript Identifiers</h3>
+All JavaScript variables must be identified with unique names. These names are called identifiers.<br>
+
+General rules for constructing names are:<br>
+ - Names can contain letters, digits, underscores, and dollar signs.
+ - Names must begin with a letter.
+ - Names can also begin with & and _
+ - Names are case sensitive
+ - Reserved words cannot be used as names.
+
+ <h3>Assignment Operator</h3>
+ In JavaScript, the equal sign (=) is an "assignment operator", not a equal to operator.
+
+ ```
+ x = x + 20
+ ````
+ It assigns the value of `x + 20` to `x`
+
+
+
+ 
