@@ -122,6 +122,14 @@ console.log(key, obj[key]);
 // "firstName" "John"
 // "lastName" "Smith"
 ```
+<b>Why use for...in ?</b>
+It lets you loop through all the keys (property names) in an object.<br>
+<b>When to use:</b> When you´re working with an object and want to:
+- get each key (property names).
+- access the value using the key.
+
+<b>⚠️Don´t use for...in with arrays</b>
+
 <h3>for...of</h3>
 
 The `for...of` loops are used for looping through iterable objects such as arrays:
@@ -134,3 +142,11 @@ for(let i of arr){
     // 10, 20, 30
 }
 ```
+<b>Why use for..of ?</b><br>
+It´s easy and clean for looping through values in:
+- array
+- strings
+- sets
+- maps
+<p><b>When to use:</b> When you just want the values, not their keys or indexes.</p>
+
