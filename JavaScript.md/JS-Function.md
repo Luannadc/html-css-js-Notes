@@ -45,6 +45,7 @@ If the function was invoked from a statament, JavaScript will "return" to execut
 Functions often compute a return value. The return value is "returned" back to the "caller":
 
 ```
+// Function is called, the return value will end up in x
 let x = myFunction(4, 3);
 
 function myFunction(a,b){
@@ -52,3 +53,39 @@ function myFunction(a,b){
     //function returns the product of a and b
 }
 ```
+<h2>Why use functions ?</h2>
+ 
+  - code reusabiliy
+  - maintainability
+  - modularity and organization
+ 
+<h2>The ( ) operator</h2>
+
+The `( )` operator invokes the function:
+
+```
+function toCelsius(fahrenheit){
+    return (5/9) * (fahrenheit-32);
+}
+let value = toCelsius(77);
+```
+
+<h2>Local Variables</h2>
+
+Variables declared within a JavaScript function, become LOCAL to the function.
+
+Local variables can only be accessed from within the function.
+
+```
+// code here can NOT use carName
+
+function myFunction() {
+  let carName = "BMW";
+  // code here CAN use carName
+}
+
+// code here can NOT use carName
+```
+Since local variables are only recognized inside their functions, variables with the same name can be used in different functions.
+
+Local variables are created when a function starts, and deleted when the function is completed.
