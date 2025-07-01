@@ -242,5 +242,11 @@ Property values in an object can be other objects:
 
 ```
 myObj = {
-    name: 
+    name: "Luanna",
+    age: 19,
+    myCars: {
+        car1:"BMW"
+        car2:"Volvo"
+        car3:"Audi"
+    }
 }
