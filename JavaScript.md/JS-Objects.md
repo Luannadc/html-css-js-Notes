@@ -250,3 +250,62 @@ myObj = {
         car3:"Audi"
     }
 }
+```
+You can access nested objects using the dot notation or the bracket notation:
+
+>myObj.myCars.car2;
+
+>myObj.myCars["car2"];
+
+>myObj["myCars"]["car2"];
+
+>let p1 = "myCars";  
+>let p2 = "car2";  
+>myObj[p1][p2];  
+
+<h2>JavaScript Object Methods</h2>
+<b>Object methods</b> are actions that can be perfomed on objects.<br>
+A method is a function definition stored as a property value.<br>
+
+|property|value|
+|---|---|
+|firstName|Luanna|
+|lastName|Dias|
+|age|19|
+|eyeColor|brown|
+|fullName|function(){return this.firstName + " " + this.lastName;}
+
+<h3>Accesing object methods</h3>
+You access an object method with the following syntax:
+
+>objectName.methodName()
+
+If you invokes the fullName property with (), it will execute as a function:
+
+example
+```
+name = person.fullName();
+```
+If you access the fullName property without (), it will return the function definition:
+
+```
+name = person.fullName;
+```
+
+<h3>Adding a Method to an Object</h3>
+Adding a new method to an object is easy:
+
+```
+person.name = function() {
+  return this.firstName + " " + this.lastName;
+};
+```
+<h3>Using JavaScript Methods</h3>
+
+This example uses the JavaScript `toUpperCase()` method to convert a text to uppercase:
+
+```
+person.name = function () {
+  return (this.firstName + " " + this.lastName).toUpperCase();
+};
+```
